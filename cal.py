@@ -17,4 +17,4 @@ def cal0(n,m):
     print
 cal0(6,31)
 cal0(10,1)
-    
+cal0(10,2)
