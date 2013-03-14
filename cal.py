@@ -16,5 +16,5 @@ def cal0(n,m):
             if (x+n)%7==0 : print
     print
 cal0(6,31)
-
+cal0(10,1)
     
