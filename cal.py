@@ -1,12 +1,12 @@
-#coding : shift-jis
+ï»¿#coding : shift-jis
 print "Calendar"
 
 wday = ("sun","smon","tue","wed","thu","fri","sat")
-    #cal0(n,m)‚Í‚P‚Â‚ÌŒŽ‚ÌƒJƒŒƒ“ƒ_[‚ðì¬‚·‚éB
-    #n‚ÍŒŽ‚ÌŠJŽn“ú‚Ì—j“ú‚ð•\‚·”Žš(0‚©‚ç6)‚Å‚ ‚èA
-    #0‚Í“ú—j“ú‚ðˆÓ–¡‚·‚éB
-    #m‚Í‚»‚ÌŒŽ‚Ì“ú”‚Å‚ ‚éB‚½‚Æ‚¦‚Î1ŒŽ‚Ím=31‚Å‚ ‚éB
-    #‚µ‚½‚ª‚Á‚Ä2000”N1ŒŽ‚ÌƒJƒŒƒ“ƒ_[‚Ícal0(6,31)‚Å•\Ž¦‚³‚ê‚éB
+    #cal0(n,m)ã¯ï¼‘ã¤ã®æœˆã®ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã‚’ä½œæˆã™ã‚‹ã€‚
+    #nã¯æœˆã®é–‹å§‹æ—¥ã®æ›œæ—¥ã‚’è¡¨ã™æ•°å­—(0ã‹ã‚‰6)ã§ã‚ã‚Šã€
+    #0ã¯æ—¥æ›œæ—¥ã‚’æ„å‘³ã™ã‚‹ã€‚
+    #mã¯ãã®æœˆã®æ—¥æ•°ã§ã‚ã‚‹ã€‚ãŸã¨ãˆã°1æœˆã¯m=31ã§ã‚ã‚‹ã€‚
+    #ã—ãŸãŒã£ã¦2000å¹´1æœˆã®ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã¯cal0(6,31)ã§è¡¨ç¤ºã•ã‚Œã‚‹ã€‚
 def cal0(n,m):
     for x in wday: print " ",x,
     print
@@ -18,3 +18,4 @@ def cal0(n,m):
 cal0(6,31)
 cal0(10,1)
 cal0(10,2)
+cal0(11,12)
